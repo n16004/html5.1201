@@ -1,0 +1,89 @@
+div {
+	color: #666666;
+	width: 500px;
+	margin-top:20px;
+	margin-right:auto;
+	margin-left:auto;
+}
+p#goto-profile a {
+	background: url(image/11-5_btn2.gif) no-repeat left top;
+	width: 140px;
+	height: 36px;
+	display: block;
+	color: #FFFFFF;
+	font-size: 15px;
+	line-height: 36px;
+	text-align: center;
+	}
+p#goto-profile a:hover {
+	background: url(image/11-5_btn2.gif) no-repeat right top;
+	}
+body {
+background: #EDE8EA url(image/tile_1p_j.jpg) no-repeat 336px 0px;
+  }
+
+#container {
+   width: 600px;
+   margin: 0px auto;
+   padding: 30px;
+   background: #fff;
+	}
+header {
+	padding: 50px;
+  background: #000;
+  color: #000;
+	}
+footer {
+font: bold 80%/1em Arial, Helvetica, sans-serif;
+  color: #FFF;
+  text-align: center;
+  padding: 10px;
+  background: #000;
+				}
+dl.sample3 dt {
+  background: url(../img/dt_bg.jpg) repeat-x;
+   height: 32px;
+   width: 240px;
+   font-size: 15px;
+   line-height: 32px;
+   font-weight: bold;
+   color: #FFF;
+   text-indent: 0.7em;
+   margin-bottom: 5px;
+}
+dl.sample3 dd a {
+   color: #666;
+   background: url(../img/dd_bg.gif) no-repeat 0px 0px;
+   text-decoration: none;
+   padding-left: 14px;
+}
+dl.sample3 dd a:hover {
+   color: #F90;
+   background: url(../img/dd_bg.gif) no-repeat 2px 0px;
+}
+table.sample1 {
+   width: 100%;
+   margin:20px 0 50px;
+   border-top: 1px solid #CCC;
+   border-left: 1px solid #CCC;
+   border-spacing:0;
+}
+table.sample1 tr th,table.sample1 tr td {　/*「,（カンマ）」で区切って複数のセレクタを指定しています*/
+	    font-size: 12px;
+	    border-bottom: 1px solid #CCC;
+	    border-right: 1px solid #CCC;
+	    padding: 7px;
+	}
+table.sample1 tr th {
+	    background: #E6EAFF;
+}
+table.sample1 caption {
+	    font-size: 90%;
+	    font-weight: bold;
+	    width: 100%;
+	    border-bottom: 1px dotted #6F87FF;
+	    margin-bottom: 10px;
+	    text-align: center;
+	    color: #6F87FF;
+			caption-side: bottom
+}

@@ -1,4 +1,255 @@
+<!DOCTYPE html>
+<html lang="ja">
 <html>
-	today is rain
-	today is rain
+<head>
+<meta charset="UTF-8">
+<link href="common.css" rel="stylesheet" type="text/css" media="all">
+<title>タイトルをつけっちゃった</title>
+<!--[if it IE 9]>
+<script src="htt://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif] -->
+<style>
+p {
+	color: #666;
+	width: 500px;
+	}
+
+
+span {
+	color:#009900;
+	}
+h1 {	
+	color:#660000;
+	font-size:30px;
+	}
+
+img {
+	float: left;
+	margin-right:20px;
+	}
+
+a {
+	font-size: 150%;
+	font-weight: bold;
+	color: #FF6666;
+	text-decoration: none;
+	}
+a:hover {
+		color: #9900FF;
+		text-decoration: underline;
+		font-style: italic;
+}
+
+</style>
+</head>
+ <body>
+ <header>
+ <h1>SITE TITLE</h1>
+ </header>
+ 	<!-- 本文start -->
+	<h1>today is rain</h1>
+	<h2>today is rain</h2>
+	<h3>today is rain</h3>
+	<h4>today is rain</h4>
+	<h5>today is rain</h5>
+	<h6>today is rain</h6>
+        today is rain <br>
+        today is rain 
+        today is rain 
+	
+	<div id="container">
+	<h1>リンクしてみよう</h1>
+	<h1>画像を貼ってみよう</h1>
+	<a href="bbb.html"><img src="image/87732691.jpg" alt="森林をイメージ" width="350" height="270"></a>
+	<h1>段落を作ってみよう</h1>
+	<a href="#profile">作者の紹介</a>
+	<p style='clear: both;"'>
+	木曽路はすべての山のなかにある。あるところは岨づたいに行く崖の道であり、あるところは数十間の深さに臨む木曽川の岸であり、あるところは山の尾をめぐる谷の入り口である。一筋の街道はこの深い森林地帯を貫いていた。
+	</p>
+	<p>
+	東ざかいの桜沢から、西の十曲峠まで、<span>木曽十一宿はこの街道に添うて、二十二里余にわたる長い渓谷の間に散在</span>していた。道路の位置も幾たびか改まったもので、古道はいつのまにか深い山間に埋もれた。
+	</p>
+	(島崎藤村「夜明け前」序の章より)
+	<p id="goto-profile">
+	<a href="bbb.html">next pege</a>
+	</p>
+	
+	<p id="profile">作者；島崎藤村（Toson Shimazaki　1872年〜1943年）</p>
+	<p>
+	1872年（明治5年）信州木曽の馬籠に生まれる。本名は春樹。<br>
+	・<br>
+	・<br>
+	　<!--途中省略。「・<br>は 高 さ を 稼 ぐ た め 。 普 通 や り ま せ ん 。 念のため。-->
+	・<br>
+	・<br>
+	・
+	</p>
+	<h2>「夜明け前」について</h2>
+	<p>
+	生家は馬籠の本陣・庄屋・問屋をつとめる名家で、父は17代当主。<br>
+	・<br>
+	・<br>
+	<!--途中省略-->
+	・<br>
+	・<br>
+	・
+	</p>
+	<p>
+	<a href="bbb.html#profile"><img src="image/11-5_btn.gif" alt="作者の紹介"></a>
+	</p>
+
+	<ul id="sample-circle">
+  		<li>リストアイテム</li>
+  		<li>リストアイテム</li>
+  		<li>リストアイテム</li>
+	</ul>
+	<ol>
+  		<li>リストアイテム</li>
+  		<li>リストアイテム</li>
+  		<li>リストアイテム</li>
+	</ol>
+	<ol start="3" reversed>
+		  <li>リストアイテム</li>
+		  <li>リストアイテム</li>
+		  <li>リストアイテム</li>
+		  <li value="11">リストアイテム</li>
+		  <li>リストアイテム</li>
+	</ol>
+	<dl>
+	  <dt>用語の名前</dt>
+	  <dd>その説明のための文章を表示します。</dd>
+	  <dt>用語の名前</dt>
+	  <dd>その説明のための文章を表示します。</dd>
+	</dl>
+
+	<dl>
+	  <dt>2011年5月20日</dt>
+	    <dd>プレゼント当選者を発表しました。</dd>
+	    <dd>スタッフブログを更新しました</dd>
+	  <dt>2011年5月16日</dt>
+	    <dd>特集ページを更新しました</dd>
+	</dl>
+
+	<dl>
+	  <dt>最新記事</dt>
+	    <dd>GIFとJPEGの違い</dd>
+	    <dd>ブラウザでソースを見る</dd>
+	    <dd>CSSでグラデーションを作ってみよう</dd>
+	  <dt>カテゴリ</dt>
+	    <dd>はじめてのHTML</dd>
+	    <dd>追加修正</dd>
+	    <dd>はじめに</dd>
+	</dl>
+	<dl>
+	  <dt>ヴィーナス</dt>
+	  <dt>アプロディテ</dt>
+	  <dd>愛と美の女神。ローマ神話のヴィーナスは、ギリシャ神話のアプロディテと同一視される。</dd>
+	</dl>
+
+	<dl>
+	  <dt>最新記事</dt>
+	  <dd>
+	      <ul>
+	      <li>GIFとJPEGの違い</li>
+	      <li>ブラウザでソースを見る</li>
+	      <li>CSS3でグラデーション</li>
+	      </ul>
+	  </dd>
+	    <dt>カテゴリ</dt>
+	  <dd>
+	      <ul>
+	      <li>はじめてのHTML</li>
+	      <li>追加修正</li>
+	      <li>はじめに</li>
+	      </ul>
+	  </dd>
+
+	  <nav>
+<ul display: inline;>
+  <li>HOME</li>
+  <li>新製品</li>
+  <li>事業案内</li>
+</ul>
+</nav>
+	</dl>
+	<dl class="sample3">
+	<dt>最近の記事</dt>
+	    <dd><a href="#">リストを作ってみよう</a></dd>
+	    <dd><a href="#">GIFとJPEGの違い</a></dd>
+	    <dd><a href="#">ブラウザでソースを見る</a></dd>
+	<dt>月別アーカイブ</dt>
+	    <dd><a href="#">2011年5月</a></dd>
+	    <dd><a href="#">2011年4月</a></dd>
+	    <dd><a href="#">2011年3月</a></dd>
+	    <dd><a href="#">2011年2月</a></dd>
+	    <dd><a href="#">2011年1月</a></dd>
+	    <dd><a href="#">2010年12月</a></dd>
+	</dl>
+	<table class="sample1">
+	  <tr>
+	    <th>table header(テーブルの見出し)</th>
+	    <th>table header(テーブルの見出し)</th>
+	    <th>table header(テーブルの見出し)</th>
+	  </tr>
+	  <tr>
+	    <td>table data(テーブルデータ)1</td>
+	    <td>table data(テーブルデータ)2</td>
+	    <td>table data(テーブルデータ)3</td>
+	  </tr>
+	  <tr>
+	    <td>table data(テーブルデータ)4</td>
+	    <td>table data(テーブルデータ)5</td>
+	    <td>table data(テーブルデータ)6</td>
+	  </tr>
+	</table>
+	<table class="sample1">
+	  <tr>
+	    <th>table header(テーブルの見出し)</th>
+	    <td>td</td>
+	    <td>td</td>
+	  </tr>
+	  <tr>
+	    <th>table header(テーブルの見出し)</th>
+	    <td>td</td>
+	    <td>td</td>
+	  </tr>
+	  <tr>
+	    <th>table header(テーブルの見出し)</th>
+	    <td>td</td>
+	    <td>td</td>
+	  </tr>
+	</table>
+	<table class="sample1">
+<caption>新作アイテム価格表</caption>
+  …省略（先ほどの見出しの部分です）…
+   <tr>
+        <td rowspan="2">Tシャツ</td>
+        <td>半袖</td>
+        <td>￥3,500</td>
+  </tr>
+  <tr>
+        <td>長袖</td>
+        <td>￥5,500</td>
+  </tr>
+  <tr>
+        <td rowspan="3">パンツ</td>
+        <td>5分丈</td>
+        <td>￥15,000</td>
+  </tr>
+  <tr>
+        <td>7分丈</td>
+        <td>￥20,000</td>
+  </tr>
+  <tr>
+        <td>10分丈</td>
+        <td>￥22,000</td>
+  </tr>
+</table>
+
+
+	</div>	<!--本文end-->
+	<footer>
+company © 将来のためのHTMLメモ .
+</footer>
+</body>
 </html>
